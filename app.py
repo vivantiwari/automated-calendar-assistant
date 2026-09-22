@@ -50,7 +50,6 @@ def create_gradio_ui():
         chatbot = gr.Chatbot(
             value=[(None, "Hello! How can I help you with your calendar today?")],
             elem_id="chatbot-box",
-            bubble_full_width=False,
             show_label=False
         )
 
